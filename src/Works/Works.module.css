@@ -1,0 +1,22 @@
+.worksBlock {
+    height: 100vh;
+    background-color: darksalmon;
+}
+.worksContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title {
+    background-color: darkgrey;
+}
+.container {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    width: 50px;
+    height: 50px;
+    background-color: darkgrey;
+}
