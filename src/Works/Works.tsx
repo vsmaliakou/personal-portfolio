@@ -9,8 +9,8 @@ const Works = () => {
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
                 <h2 className={style.title}>Works</h2>
                 <div className={style.container}>
-                    <Work title="Portfolio" description="my portfolio tratata"/>
-                    <Work title="Todolist" description="my todolist blabla"/>
+                    <Work title="the name of the project" description="short description"/>
+                    <Work title="the name of the project" description="short description"/>
                 </div>
             </div>
         </div>
