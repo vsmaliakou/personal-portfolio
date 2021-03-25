@@ -3,9 +3,18 @@
     background-color: darkgrey;
 }
 .imgBlock {
+    position: relative;
+    width: 100%;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 .imgBlock img {
-    width: 400px;
+    width: 300px;
     height: 300px;
 }
+.imgBlock button {
+    position: absolute;
+    width: 50%;
+}
+
