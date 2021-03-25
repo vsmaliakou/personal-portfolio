@@ -1,0 +1,19 @@
+.footerBlock {
+    height: 200px;
+    background-color: darksalmon;
+}
+.footerContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.container {
+    border: 1px solid;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    width: 60px;
+    height: 60px;
+    background-color: darkgrey;
+}

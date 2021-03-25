@@ -2,8 +2,8 @@ import React from 'react';
 import style from './Works.module.css'
 import styleContainer from "../Common/Styles/Container.module.css";
 import Work from "./Work/Work";
-import work1 from '../assets/image/work1.jpeg'
-import work2 from '../assets/image/work2.gif'
+import work1 from '../assets/images/work1.jpeg'
+import work2 from '../assets/images/work2.gif'
 
 const Works = () => {
     return (
