@@ -1,5 +1,4 @@
 .contactsBlock {
-    min-height: 100vh;
     background-color: #4aba4a;
 }
 .contactsContainer {
@@ -10,17 +9,21 @@
     background-color: darkgrey;
 }
 .form {
-    border: 1px solid;
-    width: 60%;
+    width: 50%;
+    background-color: gray;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    margin-bottom: 10px;
+    align-items: center;
 }
-.input {
-    height: 20px;
-    margin-bottom: 5px;
+.form input, .form textarea {
+    width: 100%;
 }
-.textarea {
-    height: 100px;
+.submitBtn {
+    padding: 10px 20px;
+    background-color: gray;
+}
+@media screen and (max-width: 450px) {
+    .form {
+        width: 100%;
+    }
 }

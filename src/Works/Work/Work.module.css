@@ -1,24 +1,18 @@
 .work {
-    width: 250px;
+    width: 450px;
     background-color: darkgrey;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
 }
-.imgBlock {
-    position: relative;
-    width: 100%;
+.image {
+    height: 300px;
+    background-color: gray;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.imgBlock img {
-    width: 100%;
-}
-
-.imgBlock button {
-    position: absolute;
-    width: 50%;
+.view {
+    background-color: gray;
+    padding: 10px 20px;
 }
 
