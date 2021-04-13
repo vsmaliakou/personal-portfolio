@@ -10,7 +10,7 @@ type WorkType = {
 
 const Work: React.FC<WorkType> = (props) => {
     return (
-        <div className={style.container}>
+        <div className={style.work}>
             <div className={style.imgBlock}>
                 <img src={props.src}/>
                 <button>Look</button>

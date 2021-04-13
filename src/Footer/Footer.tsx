@@ -5,15 +5,16 @@ import styleContainer from "../Common/Styles/Container.module.css";
 const Footer = () => {
     return (
         <div className={style.footerBlock}>
-            <div className={`${styleContainer.container} ${style.footerContainer}`}>
-                <h2>VITALI SMALIAKOU</h2>
+            <div className={style.footerContainer}>
+                <h2 className={style.title}>VITALI SMALIAKOU</h2>
                 <div className={style.container}>
                     <img className={style.icon}/>
                     <img className={style.icon}/>
                     <img className={style.icon}/>
                     <img className={style.icon}/>
+                    <img className={style.icon}/>
                 </div>
-                <h3>2021 Все права и все дела</h3>
+                <h3 className={style.titleBottom}>2021 Все права и все дела</h3>
             </div>
         </div>
     );

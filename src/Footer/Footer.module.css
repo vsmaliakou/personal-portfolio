@@ -1,19 +1,35 @@
 .footerBlock {
-    height: 200px;
+    min-height: 200px;
     background-color: darksalmon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .footerContainer {
+    border: 1px solid;
+    width: 80%;
+    min-height: 200px;
+    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: center;
+}
+.title {
+    background-color: gray;
 }
 .container {
     border: 1px solid;
-    width: 500px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .icon {
     width: 60px;
     height: 60px;
-    background-color: darkgrey;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: gray;
+}
+.titleBottom {
+    background-color: gray;
 }
