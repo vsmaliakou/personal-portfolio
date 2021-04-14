@@ -1,24 +1,29 @@
+@import '../../Styles/sass/variable';
+
 .title {
-    margin-bottom: 30px;
-    position: relative;
-}
-.title h2 {
+  margin-bottom: 30px;
+  position: relative;
+
+  h2 {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     font-weight: 400;
     display: block;
-    color: #333;
+    color: $textColor;
     font-size: 2em;
     line-height: 1.2em;
-}
-.title::before {
+  }
+
+  &::before {
     content: "";
     position: absolute;
     display: block;
     width: 100px;
     height: 2px;
-    background: #333;
+    background: $textColor;
     bottom: -15px;
     left: 50%;
     transform: translate(-50%, 50%);
+  }
 }
+

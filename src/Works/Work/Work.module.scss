@@ -1,0 +1,44 @@
+@import '../../Common/Styles/sass/variable';
+@import '../../Common/Styles/sass/mixins';
+
+.work {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  .image {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &:hover .opacityBlock {
+      background: rgba(0, 0, 0, 0.9);
+      cursor: pointer;
+      opacity: 1;
+    }
+
+    .opacityBlock {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      opacity: 0;
+      transition: all 0.4s;
+
+      .workTitle {
+        @include text($fontFamily, 25px, 700, $textSecondColor, 1.1);
+        margin: 10px 0 0;
+      }
+
+      .description {
+        @include text($fontFamily, 14px, 300, $textSecondColor, 1.42857143);
+        margin: 0 0 10px;
+      }
+    }
+  }
+}
