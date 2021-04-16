@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Works.module.scss'
-import styleContainer from "../Common/Styles/Container.module.css";
+import styleContainer from "../Common/Styles/Container.module.scss";
 import Work from "./Work/Work";
 import Title from "../Common/Components/title/Title";
 import socialNetworkImage from '../assets/images/socialnetwork.png'

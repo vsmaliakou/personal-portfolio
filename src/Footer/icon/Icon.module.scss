@@ -1,0 +1,19 @@
+@import '../../Common/Styles/sass/variable';
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: #1C1B1B;
+  margin: 3px;
+  padding: 5px;
+  color: #808080;
+  transition: all 0.4s;
+
+  &:hover {
+    outline: 1px solid #808080;
+  }
+}
+

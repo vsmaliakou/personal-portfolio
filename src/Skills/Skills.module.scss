@@ -1,24 +1,25 @@
 @import '../Common/Styles/sass/variable';
 
-.worksBlock {
-  background-color: $bgSecondColor;
+.skillsBlock {
+  background-color: $bgColor;
   padding: 100px 0;
 
-  .worksContainer {
+  .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
+    flex-wrap: nowrap;
 
-    .container {
+    .skills {
+      //border: 1px solid;
       width: 100%;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
       margin-top: 15px;
-      @media screen and (max-width: 1124px) {
+      @media screen and (max-width: 938px) {
+        align-items: center;
         justify-content: center;
       }
     }
   }
 }
-
-
