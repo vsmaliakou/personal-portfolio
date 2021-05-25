@@ -5,12 +5,13 @@ import {IconProp} from "@fortawesome/fontawesome-svg-core";
 
 type IconType = {
     icon: IconProp
+    href: string
 }
 
 const Icon: React.FC<IconType> = (props) => {
     return (
         <div className={style.icon}>
-            <FontAwesomeIcon  icon={props.icon} size="1x"/>
+            <a href={props.href}><FontAwesomeIcon  icon={props.icon} size="1x"/></a>
         </div>
     );
 }
