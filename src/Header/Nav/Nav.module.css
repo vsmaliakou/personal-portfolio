@@ -1,0 +1,22 @@
+.nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.nav a {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: block;
+    align-items: center;
+}
+.nav a:hover{
+    border-bottom: 4px solid gold;
+}

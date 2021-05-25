@@ -1,6 +1,6 @@
 import React from 'react';
-import style from './Works.module.scss'
-import styleContainer from "../Common/Styles/Container.module.scss";
+import style from './Works.module.css'
+import styleContainer from "../Common/Styles/Container.module.css";
 import Work from "./Work/Work";
 import Title from "../Common/Components/title/Title";
 import socialNetworkImage from '../assets/images/socialnetwork.png'
@@ -27,18 +27,21 @@ const Works = () => {
                 <div className={style.container}>
                     <Work
                         title="Social network"
-                        description="short description 1"
+                        description="TypeScript, Redux/hoc, react-router-dom, axios, thunk, Formik, reselect, WebSocket, AntDesign"
                         style={socialNetwork}
+                        href={"https://vsmaliakou.github.io/social-network/"}
                     />
                     <Work
                         title="Todolist"
-                        description="short description 2"
+                        description="TypeScript, Redux/hoc, react-router-dom, axios, thunk, Formik, MaterialUI"
                         style={todolist}
+                        href={"https://vsmaliakou.github.io/todolist/"}
                     />
                     <Work
                         title="Counter"
-                        description="short description 3"
+                        description="TypeScript, Redux, thunk, work with Local Storage"
                         style={counter}
+                        href={"https://vsmaliakou.github.io/counter/"}
                     />
                 </div>
             </div>

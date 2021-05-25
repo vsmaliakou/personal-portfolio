@@ -1,8 +1,0 @@
-$primaryColor: #131313;
-
-$bgColor: #fff;
-$bgSecondColor: #f7f7f7;
-
-$fontFamily: 'Poppins', sans-serif;
-$textColor: #1c1b1b;
-$textSecondColor: #fff;

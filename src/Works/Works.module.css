@@ -1,0 +1,26 @@
+.worksBlock {
+    background-color: #f7f7f7;
+    padding: 100px 0;
+}
+
+.worksContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 1124px) {
+    .container {
+        justify-content: center;
+    }
+}
+
+
+

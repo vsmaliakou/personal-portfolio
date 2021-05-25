@@ -1,0 +1,73 @@
+.contactsBlock {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+.contactsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.form {
+    width: 66%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inputContainer input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 0;
+    color: #1c1b1b;
+    line-height: 1.42857143;
+    width: 49%;
+    padding: 15px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+@media screen and (max-width: 1040px) {
+    .inputContainer input {
+        width: 100%;
+    }
+}
+
+.textarea {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 0;
+    color: #1c1b1b;
+    line-height: 1.42857143;
+    float: left;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button input {
+    color: #fff;
+    background: #131313;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding: 12px 30px;
+    letter-spacing: 1px;
+    border: 1px solid #333;
+    font: inherit;
+}

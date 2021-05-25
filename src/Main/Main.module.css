@@ -1,0 +1,61 @@
+.main {
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+}
+
+.text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    font-weight: 500;
+    color: #1c1b1b;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    margin-top: 63px;
+    display: block;
+}
+
+@media screen and (max-width: 1046px) {
+    .text h1 {
+        font-size: 2.5em;
+    }
+}
+
+.text h1::after {
+    content: "";
+    background: #131313;
+    display: block;
+    width: 140px;
+    height: 2px;
+    margin: 15px 0;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #1c1b1b;
+    line-height: 1.1;
+    margin: 0 0 10px;
+    display: block;
+
+}
+
+@media screen and (max-width: 1046px) {
+    h3 {
+        font-size: 1.5em;
+    }
+}
+
+.photo {
+    width: 400px;
+    background-color: darkgrey;
+}
+
+@media screen and (max-width: 1046px) {
+    .photo {
+        width: 250px;
+        height: 350px;
+    }
+}

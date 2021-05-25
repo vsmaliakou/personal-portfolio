@@ -1,5 +1,3 @@
-@import '../../Common/Styles/sass/variable';
-
 .icon {
   display: flex;
   align-items: center;
@@ -11,9 +9,9 @@
   padding: 5px;
   color: #808080;
   transition: all 0.4s;
-
-  &:hover {
-    outline: 1px solid #808080;
-  }
 }
+
+.icon:hover {
+   outline: 1px solid #808080;
+ }
 
