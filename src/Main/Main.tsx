@@ -2,16 +2,35 @@ import React from 'react';
 import style from './Main.module.css'
 import styleContainer from '../Common/Styles/Container.module.css'
 import avatar from '../assets/images/photo_2021-05-10_14-45-17.jpg'
+import Particles from 'react-particles-js'
+import ReactTypingEffect from 'react-typing-effect';
+
+const particlesOpt = {
+    particles: {
+        number: {
+            value: 50
+        },
+        size: {
+            value: 3
+        },
+        line_linked: {
+            color: {
+                value: "#847d7d"
+            }
+        }
+    },
+}
 
 const Main = () => {
     return (
         <div className={style.main}>
-            <div className={styleContainer.container}>
+            <Particles className={style.particles} params={particlesOpt}/>
+            <div className={`${style.mainContainer} ${styleContainer.container}`}>
                 <div className={style.text}>
                     <h1>Hi! I'm Vitali Smaliakou</h1>
-                    <h3>I am a Front-end Developer</h3>
+                    <h3>I am a <ReactTypingEffect text={"Front-end Developer"} speed={80} eraseSpeed={80}/></h3>
                 </div>
-                <div >
+                <div>
                     <img className={style.photo} src={avatar} alt='img'/>
                 </div>
             </div>

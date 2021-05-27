@@ -6,6 +6,7 @@ import Title from "../Common/Components/title/Title";
 import socialNetworkImage from '../assets/images/socialnetwork.png'
 import todolistImage from '../assets/images/todolist.jpg'
 import counterImage from '../assets/images/counter.jpg'
+import {Fade} from "react-awesome-reveal";
 
 
 const Works = () => {
@@ -22,29 +23,31 @@ const Works = () => {
 
     return (
         <div className={style.worksBlock}>
-            <div className={`${styleContainer.container} ${style.worksContainer}`}>
-                <Title text="MY PROJECTS"/>
-                <div className={style.container}>
-                    <Work
-                        title="Social network"
-                        description="TypeScript, Redux/hoc, react-router-dom, axios, thunk, Formik, reselect, WebSocket, AntDesign"
-                        style={socialNetwork}
-                        href={"https://vsmaliakou.github.io/social-network/"}
-                    />
-                    <Work
-                        title="Todolist"
-                        description="TypeScript, Redux/hoc, react-router-dom, axios, thunk, Formik, MaterialUI"
-                        style={todolist}
-                        href={"https://vsmaliakou.github.io/todolist/"}
-                    />
-                    <Work
-                        title="Counter"
-                        description="TypeScript, Redux, thunk, work with Local Storage"
-                        style={counter}
-                        href={"https://vsmaliakou.github.io/counter/"}
-                    />
+            <Fade>
+                <div className={`${styleContainer.container} ${style.worksContainer}`}>
+                    <Title text="MY PROJECTS"/>
+                    <div className={style.container}>
+                        <Work
+                            title="Social network"
+                            description="TypeScript, Redux/hoc, react-router-dom, axios, thunk, Formik, reselect, WebSocket, AntDesign (in progress)"
+                            style={socialNetwork}
+                            href={"https://vsmaliakou.github.io/social-network/"}
+                        />
+                        <Work
+                            title="Todolist"
+                            description="TypeScript, Redux/hoc, react-router-dom, axios, thunk, Formik, MaterialUI"
+                            style={todolist}
+                            href={"https://vsmaliakou.github.io/todolist/"}
+                        />
+                        <Work
+                            title="Counter"
+                            description="TypeScript, Redux, thunk, work with Local Storage"
+                            style={counter}
+                            href={"https://vsmaliakou.github.io/counter/"}
+                        />
+                    </div>
                 </div>
-            </div>
+            </Fade>
         </div>
     );
 }

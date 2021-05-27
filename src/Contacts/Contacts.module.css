@@ -68,8 +68,12 @@
     transition: all 0.3s;
     padding: 12px 30px;
     letter-spacing: 1px;
-    border: 1px solid #333;
+    border: 1px solid #131313;
     font: inherit;
+}
+.submitBTN:hover{
+    background: #f7f7f7;
+    color: #131313;
 }
 .message{
     font-family: 'Poppins', sans-serif;

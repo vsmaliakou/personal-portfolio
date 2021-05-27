@@ -4,6 +4,16 @@
     display: flex;
     justify-content: center;
 }
+.particles{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.mainContainer{
+    position: relative;
+}
 
 .text h1 {
     font-family: 'Poppins', sans-serif;
@@ -49,13 +59,12 @@ h3 {
 }
 
 .photo {
-    width: 400px;
+    width: 350px;
     background-color: darkgrey;
 }
 
-@media screen and (max-width: 1046px) {
+@media screen and (max-width: 470px) {
     .photo {
         width: 250px;
-        height: 350px;
     }
 }

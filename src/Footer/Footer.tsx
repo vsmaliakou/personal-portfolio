@@ -12,7 +12,7 @@ const Footer = () => {
     return (
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
-                <span className={style.copyright}>2021</span>
+                <span className={style.copyright}>Vitali Smaliakou 2021</span>
                 <div className={style.IconContainer}>
                     <Icon icon={faLinkedinIn} href='https://www.linkedin.com/in/vitali-smaliakou-50110a210/'/>
                     <Icon icon={faTelegramPlane} href='https://t.me/vsmaliakou'/>
