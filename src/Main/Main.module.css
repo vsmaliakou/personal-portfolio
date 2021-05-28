@@ -60,7 +60,6 @@ h3 {
 
 .photo {
     width: 350px;
-    background-color: darkgrey;
 }
 
 @media screen and (max-width: 470px) {

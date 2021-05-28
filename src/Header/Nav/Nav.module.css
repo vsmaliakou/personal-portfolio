@@ -1,22 +1,28 @@
 .nav {
-    height: 100%;
     display: flex;
     justify-content: space-between;
-    margin-right: 40px;
+}
+
+@media screen and (max-width: 450px) {
+    .nav {
+        display: none;
+    }
 }
 
 .nav a {
-    height: 100%;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #fff;
     line-height: 20px;
     text-decoration: none;
-    padding: 20px 15px;
-    display: block;
-    align-items: center;
+    padding: 20px 20px;
 }
-.nav a:hover{
-    border-bottom: 4px solid gold;
+
+.nav a:hover {
+    color: #7070fa;
+}
+
+a.active {
+    color: #7070fa;
 }

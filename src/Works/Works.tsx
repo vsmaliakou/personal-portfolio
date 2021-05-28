@@ -22,7 +22,7 @@ const Works = () => {
     }
 
     return (
-        <div className={style.worksBlock}>
+        <div className={style.worksBlock} id="projects">
             <Fade>
                 <div className={`${styleContainer.container} ${style.worksContainer}`}>
                     <Title text="MY PROJECTS"/>

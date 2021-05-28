@@ -15,7 +15,7 @@ const Contacts = () => {
     }
 
     return (
-        <div className={style.contactsBlock}>
+        <div className={style.contactsBlock} id="contacts">
             <Fade>
                 <div className={`${style.contactsContainer} ${styleContainer.container}`}>
                     <Title text="CONTACT ME"/>
