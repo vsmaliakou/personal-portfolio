@@ -59,6 +59,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .submitBTN {
@@ -74,6 +75,7 @@
 .submitBTN:hover{
     background: #f7f7f7;
     color: #131313;
+    position: relative;
 }
 .message{
     font-family: 'Poppins', sans-serif;
@@ -81,8 +83,9 @@
     font-weight: 0;
     line-height: 1.42857143;
     position: absolute;
-    top: 40px;
-    left: 150px;
+    top: -170px;
+    left: 50%;
+    transform: translate(-50%, 50%);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -93,11 +96,12 @@
     width: 400px;
     height: 100px;
 }
-.close{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    color: #f7f7f7;
-    background-color: #1C1B1B;
-    border: 1px solid #1C1B1B;
+@media screen and (max-width: 1040px) {
+    .message {
+        width: 250px;
+        height: 150px;
+        top: -240px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
 }

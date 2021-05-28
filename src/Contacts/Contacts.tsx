@@ -8,10 +8,7 @@ const Contacts = () => {
 
     const [isClicked, setIsClicked] = useState(false)
     const click = () => {
-        setIsClicked(true)
-    }
-    const close = () => {
-        setIsClicked(false)
+        setIsClicked(!isClicked)
     }
 
     return (
@@ -27,12 +24,11 @@ const Contacts = () => {
                         <textarea className={style.textarea} placeholder="message"/>
                         <div className={style.button}>
                             <button type="button" className={style.submitBTN} onClick={click}>CONTACT NOW</button>
+                            {isClicked && <div className={style.message}>Sorry, this block is not ready yet.<br/>
+                                To contact me, send an email to my mail:<br/>
+                                vsmaliakou@yandex.by
+                            </div>}
                         </div>
-                        {isClicked && <div className={style.message}>Sorry, this block is not ready yet.<br/>
-                            To contact me, send an email to my mail:<br/>
-                            vsmaliakou@yandex.by
-                            <button type="submit" className={style.close} onClick={close}>X</button>
-                        </div>}
                     </form>
                 </div>
             </Fade>
