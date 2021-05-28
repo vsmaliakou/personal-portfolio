@@ -8,7 +8,6 @@ import todolistImage from '../assets/images/todolist.jpg'
 import counterImage from '../assets/images/counter.jpg'
 import {Fade} from "react-awesome-reveal";
 
-
 const Works = () => {
 
     const socialNetwork = {
