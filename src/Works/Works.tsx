@@ -5,7 +5,7 @@ import Work from "./Work/Work";
 import Title from "../Common/Components/title/Title";
 import socialNetworkImage from '../assets/images/socialnetwork.png'
 import todolistImage from '../assets/images/todolist.jpg'
-import counterImage from '../assets/images/counter.jpg'
+import cardsImage from '../assets/images/cards.jpg'
 import {Fade} from "react-awesome-reveal";
 
 const Works = () => {
@@ -16,8 +16,8 @@ const Works = () => {
     const todolist = {
         backgroundImage: `url(${todolistImage})`
     }
-    const counter = {
-        backgroundImage: `url(${counterImage})`
+    const cards = {
+        backgroundImage: `url(${cardsImage})`
     }
 
     return (
@@ -39,10 +39,10 @@ const Works = () => {
                             href={"https://vsmaliakou.github.io/todolist/"}
                         />
                         <Work
-                            title="Counter"
-                            description="TypeScript, Redux, thunk, work with Local Storage"
-                            style={counter}
-                            href={"https://vsmaliakou.github.io/counter/"}
+                            title="Cards"
+                            description="TypeScript, Redux/hoc, react-router-dom, axios, thunk, MaterialUI"
+                            style={cards}
+                            href={"https://vsmaliakou.github.io/friday/"}
                         />
                     </div>
                 </div>
